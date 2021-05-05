@@ -10,10 +10,14 @@ html, body {
 
 #hero_image{
     background-color:#508ca4 ;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),  url("images_folder/hero_image_filmarket.jpg");
-    height: 300px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),  url("images_folder/boodle_fight.jpg") alt="Filipino Market";
     background-position: "center";
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:1400px;
+    height:400px;
+
 }
