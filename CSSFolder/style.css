@@ -19,3 +19,25 @@ html, body {
     height: 300px;
 
 }
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    overflow:hidden;
+    background-color: grey;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+
+
+}
