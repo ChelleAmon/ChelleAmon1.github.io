@@ -9,14 +9,15 @@ html, body {
 
 #hero_image{
     background-color:#508ca4;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)) url("images_folder/hero_image_filmarket1.jpg");
+    background-image:url('../images_folder/kamayan.jpg');
+    background: linear-gradient(rgb(0,0,0,1));
     background-position: "center";
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
     margin-left:auto;
     margin-right: auto;
-    height: 500px;
+    height: 700px;
 
 }
 
