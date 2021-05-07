@@ -25,7 +25,7 @@ ul {
     text-decoration: none;
     color: #fff;
     overflow:hidden;
-    background-color: grey;
+    background-color: #508ca4;
 
 }
 
@@ -39,5 +39,14 @@ li a{
     padding: 10px;
     text-align: center;
 
+}
+
+li a:hover{
+    color: orange;
+
+}
+
+
+.navbar{
 
 }
