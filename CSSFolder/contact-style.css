@@ -1,8 +1,28 @@
 html, body {
-    margin: 30px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #ECE8EF;
     color: #fff;
     font-family: 'Itim', cursive;
- /*   font-family: 'Noto Sans TC', sans-serif; */
+ font-family: 'Noto Sans TC', sans-serif; 
 
 }
+
+/*This is for the header */
+
+.header1 {
+    background-image: url("../images_folder/");
+    background-color: #508ca4;
+    background-size: cover;
+    color:#fff;
+    height: 200px;
+    width: 100%;
+    flex-direction:column;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
