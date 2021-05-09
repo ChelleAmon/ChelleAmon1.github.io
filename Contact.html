@@ -10,6 +10,14 @@
     <title>Contact Us</title>
 </head>
 <body>
+    <!--creating function for contact form using javascript-->
+    <script type="text/javascript">
+        function Enabledisabletextboxes(){
+            var
+        }
+
+
+    </script>
     <!--This is the headder-->
     <header class="header1"> 
         <h2 id="firstheader">Do you want to share your filipino recipe?</h2>
@@ -28,29 +36,60 @@
                     <label class="main-label" for="fname">First Name:</label>
                     <input required type="text" id="fname" placeholder="Your first name">
                 </div>
-                <div>
+                <div class="form-row">
                     <label class="main-label" for="lname">Last Name:</label>
                     <input required type="text" id="lname" placeholder="Your last name">
                 </div>
 
-                <div>
+                <div class="form-row">
                     <label class="main-label" for="number">Phone number:</label>
                     <input required type="text" id="number" placeholder="(000)000-0000">
                 </div>
-                <div>
+                <div class="form-row">
                     <label class="main-label" for="email">Email Address:</label>
                     <input required type="text" id="email" placeholder="xyz@example.com">
                 </div>
-                <div>
+
+                <div class="form-row">
+                    <label class="main-label" for="prefercontact">How would you like to be contacted?</label>
+                    <input type="checkbox" name="prefercontact">Call
+                    <input type="checkbox" name="prefercontact">Text
+                    <input type="checkbox" name="prefercontact">Email 
+                </div>
+                <div class="form-row">
                     <label class="main-label" for="share">Share recipe or send feedback?</label>
                     <input type="radio" name="share"> Share recipe
                     <input type="radio" name="share"> Send Feedback
                     <input type="radio" name="share"> Other
                 </div>
-                <div>
+
+                <!--Enabled if "Send feedback radiobutton is selected"-->
+                <div class="form-row">
                     <label class="main-label" for="feedback">What is your feedback?</label>
                     <textarea name="feedback" class="multitext"></textarea>
                 </div>
+
+                <!--Enabled if Share recipe radio button is selected-->
+                <div class="form-row">
+                    <label class="main-label" for="recipe">What is the name of your recipe?</label>
+                    <input type="text" id="recipe" placeholder="Name of the recipe">
+                </div>
+                <div class="form-row">
+                    <label class="main-label" for="sendrecipefile">Upload your recipe here:</label>
+                    <input type="file" id="sendrecipefile" name="sendrecipefile">
+                </div>
+
+
+                
+                <div class="form-row buttonclass" >
+                    <button id="submit-btn" type="submit">Send</button>
+                    <button id="clear-btn" type="reset">Reset</button>
+                </div>
+
+
+
+
+
 
             </form>
             
@@ -58,5 +97,7 @@
 
         </div>
     </main>
+
+
 </body>
 </html>
