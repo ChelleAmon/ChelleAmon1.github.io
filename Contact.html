@@ -12,7 +12,8 @@
 <body>
     <!--This is the headder-->
     <header class="header1"> 
-        <h2>Do you have any questions?</h2>
+        <h2 id="firstheader">Do you want to share your filipino recipe?</h2>
+        <h2>Do you want to leave a feedback?</h2>
         <p>Reach out to us by filling out this form.</p>
     </header>
 
@@ -24,10 +25,31 @@
 
             <form action="#"></a>
                 <div class="form-row">
-                    <label>
+                    <label class="main-label" for="fname">First Name:</label>
+                    <input required type="text" id="fname" placeholder="Your first name">
+                </div>
+                <div>
+                    <label class="main-label" for="lname">Last Name:</label>
+                    <input required type="text" id="lname" placeholder="Your last name">
+                </div>
 
+                <div>
+                    <label class="main-label" for="number">Phone number:</label>
+                    <input required type="text" id="number" placeholder="(000)000-0000">
+                </div>
+                <div>
+                    <label class="main-label" for="email">Email Address:</label>
+                    <input required type="text" id="email" placeholder="xyz@example.com">
+                </div>
+                <div>
+                    <label class="main-label" for="share">Share recipe or send feedback?</label>
+                    <input type="radio" name="share"> Share recipe
+                    <input type="radio" name="share"> Send Feedback
+                    <input type="radio" name="share"> Other
+                </div>
+                <div>
+                    <label class="main-label" for="feedback">What is your feedback?</label>
 
-                    </label>
                 </div>
 
             </form>
