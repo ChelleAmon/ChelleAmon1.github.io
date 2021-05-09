@@ -10,14 +10,7 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <!--creating function for contact form using javascript-->
-    <script type="text/javascript">
-        function Enabledisabletextboxes(){
-            var
-        }
 
-
-    </script>
     <!--This is the headder-->
     <header class="header1"> 
         <h2 id="firstheader">Do you want to share your filipino recipe?</h2>
@@ -58,7 +51,7 @@
                 </div>
                 <div class="form-row">
                     <label class="main-label" for="share">Share recipe or send feedback?</label>
-                    <input type="radio" name="share"> Share recipe
+                    <input type="radio" id="share" name="share" onclick="Enabledisabletextboxes"> Share recipe
                     <input type="radio" name="share"> Send Feedback
                     <input type="radio" name="share"> Other
                 </div>
@@ -66,7 +59,7 @@
                 <!--Enabled if "Send feedback radiobutton is selected"-->
                 <div class="form-row">
                     <label class="main-label" for="feedback">What is your feedback?</label>
-                    <textarea name="feedback" class="multitext"></textarea>
+                    <textarea id="feedback" name="feedback" class="multitext" ></textarea>
                 </div>
 
                 <!--Enabled if Share recipe radio button is selected-->
@@ -86,17 +79,24 @@
                     <button id="clear-btn" type="reset">Reset</button>
                 </div>
 
-
-
-
-
-
+    <!--creating function for contact form using javascript-->
+    <script type="text/javascript">
+        function Enabledisabletextboxes(){
+            var share = document.getElementById("share");
+            var feedback=document.getElementById("feedback");
+            feedback.disabled= share.checked? false: true;
+            if (feedback.disabled){
+                feedback.focus();
+            }
+        }
+    </script>
             </form>
-            
-
-
         </div>
     </main>
+
+    <footer>
+        
+    </footer>
 
 
 </body>
