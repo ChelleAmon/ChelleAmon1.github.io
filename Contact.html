@@ -51,9 +51,9 @@
                 </div>
                 <div class="form-row">
                     <label class="main-label" for="share">Share recipe or send feedback?</label>
-                    <input type="radio" id="share" name="share" onclick="Enabledisabletextboxes"> Share recipe
-                    <input type="radio" name="share"> Send Feedback
-                    <input type="radio" name="share"> Other
+                    <input type="radio" id="share" name="share"> Share recipe
+                    <input type="radio" id="sendfb" name="share"> Send Feedback
+                    <input type="radio" id="other" name="share"> Other
                 </div>
 
                 <!--Enabled if "Send feedback radiobutton is selected"-->
@@ -81,14 +81,34 @@
 
     <!--creating function for contact form using javascript-->
     <script type="text/javascript">
-        function Enabledisabletextboxes(){
-            var share = document.getElementById("share");
-            var feedback=document.getElementById("feedback");
-            feedback.disabled= share.checked? false: true;
-            if (feedback.disabled){
-                feedback.focus();
-            }
-        }
+        (function (){
+            var sharerecipe = document.getElementById('share');
+            var feedback = document.getElementById('feedback');
+            var recipe = document.getElementById('recipe');
+            var sndrecipe = document.getElementById('sendrecipefile');
+            var sendfb = document.getElementById('sendfb');
+            var other = document.getElementById('other');
+
+            sharerecipe.addEventListener ('click', function () {
+                if (this.checked){
+                    feedback.disabled = "false";
+                    recipe.disabled="";
+                    sndrecipe.disabled = "";
+                 } 
+
+                });
+
+            sendfb.addEventListener ('click', function () {
+                if (sendfb.checked) {
+                    feedback.disabled = "";
+                    sndrecipe.disabled = "false";
+                    recipe.disabled = "false";
+                } 
+            });
+
+
+
+        })();
     </script>
             </form>
         </div>
