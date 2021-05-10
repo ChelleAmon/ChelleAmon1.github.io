@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="CSSFolder/contact-style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,6 +90,7 @@
             var sendfb = document.getElementById('sendfb');
             var other = document.getElementById('other');
 
+        /*textarea should be disabled if Send recipe radio button is checked*/
             sharerecipe.addEventListener ('click', function () {
                 if (this.checked){
                     feedback.disabled = "false";
@@ -98,6 +100,8 @@
 
                 });
 
+        /*textarea should be enabled if Send feedback radio button is checked*/
+
             sendfb.addEventListener ('click', function () {
                 if (sendfb.checked) {
                     feedback.disabled = "";
@@ -106,16 +110,25 @@
                 } 
             });
 
-
-
         })();
     </script>
             </form>
         </div>
     </main>
+    <!--create a fix footer with social media icons-->
+    <footer class="footer1">
+        <div class="footercontent">
+            <p>Pinoy Cookbook Diary 2021</p>
+        </div>
 
-    <footer>
-        
+    <!--Add font awesome social media icons-->
+        <div class="socialmedia">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
     </footer>
 
 
