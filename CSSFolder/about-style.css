@@ -54,5 +54,8 @@ html, body {
     width: 31%;
     height: 300px;
     margin: 10px;
+}
 
+.clearfloat {
+    clear:none;
 }
