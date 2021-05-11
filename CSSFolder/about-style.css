@@ -1,0 +1,58 @@
+html, body {
+    margin: 0px;
+    background-color: #ECE8EF;
+    color: #fff;
+    font-family: 'Itim', cursive;
+ /*   font-family: 'Noto Sans TC', sans-serif; */
+    box-sizing: border-box;
+}
+
+/*This is my header*/
+.header1 {
+    background-image: url("../images_folder/");
+    background-color: #508ca4;
+    background-size: cover;
+    color:#fff;
+    height: 240px;
+    width: 100%;
+    flex-direction:column;
+    text-align: center;
+    background-position: "center";
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*This is my main content with three columns*/
+.maincontent {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.subcontents{
+    display: flexbox;
+    float: left;
+    background-color: #fff;
+    width: 31%;
+    height: 300px;
+    margin: 10px;
+
+}

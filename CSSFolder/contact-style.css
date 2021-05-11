@@ -1,13 +1,10 @@
 html, body {
-
-    /*margin-left: 30px;
-    margin-right: 30px;*/
+    margin: 0px;
     background-color: #ECE8EF;
     color: #fff;
     font-family: 'Itim', cursive;
     font-family: 'Noto Sans TC', sans-serif; 
-    margin:0;
-    padding: 0;
+
 }
 
 /*This is for the header */
@@ -21,11 +18,13 @@ html, body {
     width: 100%;
     flex-direction:column;
     text-align: center;
+    font-family: 'Itim', cursive;
 }
 
 #firstheader {
     padding-top: 20px;
 }
+
 
 main {
     width: 750px;
