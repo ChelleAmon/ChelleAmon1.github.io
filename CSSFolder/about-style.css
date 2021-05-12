@@ -13,7 +13,7 @@ html, body {
     background-color: #508ca4;
     background-size: cover;
     color:#fff;
-    height: 240px;
+    height: 300px;
     width: 100%;
     flex-direction:column;
     text-align: center;
@@ -77,3 +77,25 @@ html, body {
     opacity: 0.5;
 
 }
+
+/*iframe to place contents from links*/
+.iframecontent {
+    height: 600px;
+    width: 1500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cyan;
+   
+}
+
+.oframecontent {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width:1500px;
+
+}
+
+
