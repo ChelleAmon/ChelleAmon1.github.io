@@ -4,7 +4,7 @@ html, body {
     color: #fff;
     font-family: 'Itim', cursive;
  /*   font-family: 'Noto Sans TC', sans-serif; */
-    background-image:url("images_folder/hero_image_filmarket1.jpg")
+ /*   background-image:url("images_folder/hero_image_filmarket1.jpg")*/
 }
 
 #hero_image{
@@ -17,9 +17,7 @@ html, body {
     position: relative;
     margin-left:auto;
     margin-right: auto;
-    height: 700px;
-
-
+    height: 600px;
 }
 
 ul {
@@ -47,6 +45,10 @@ li a{
 li a:hover{
     color: orange;
 } 
+
+li a.active{
+    color: #508ca4;
+}
 
 .navbar{
     height: 40px;
