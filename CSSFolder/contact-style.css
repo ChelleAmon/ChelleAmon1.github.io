@@ -10,19 +10,22 @@ html, body {
 /*This is for the header */
 
 .header1 {
-    background-image: url("../images_folder/");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images_folder/boodle_fight2.jpg");
     background-color: #508ca4;
     background-size: cover;
     color:#fff;
-    height: 240px;
+    height: 300px;
     width: 100%;
     flex-direction:column;
     text-align: center;
     font-family: 'Itim', cursive;
 }
 
-
+body {
+    background-image: url("../images_folder/leafbackground.png");
+}
 main.contactform {
+
     width: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +34,8 @@ main.contactform {
     margin-top: 15px;
     margin-bottom: 20px;
     border-spacing: 20px;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    height: 1120px; 
 }
 
 h4 {
@@ -59,7 +63,6 @@ h4 {
 .contact{
     margin-left: 20px;
     margin-right: 15px;
-    margin-bottom: 30px;
 }
 
 
@@ -99,7 +102,7 @@ h4 {
 /*Adding classes for footer section*/
 
 .footer1{
-   /* position:relative; */
+   position:relative; 
     left: 0;
     bottom: 0;
     width: 100%;
@@ -208,4 +211,12 @@ h4 {
 
 .clearfloat {
     clear:none;
+}
+
+.map{
+    text-align: center;
+    clear:both;
+    width: 700px;
+    margin-left: auto;
+    margin-right:auto;
 }

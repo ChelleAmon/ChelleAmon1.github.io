@@ -1,16 +1,15 @@
 html, body {
     margin: 0px;
-    background-color: #ECE8EF;
+    background-color: #fff;
     color: #fff;
     font-family: 'Itim', cursive;
  /*   font-family: 'Noto Sans TC', sans-serif; */
- /*   background-image:url("images_folder/hero_image_filmarket1.jpg")*/
+
 }
 /*hero image in header*/
 #hero_image{
     background-color:#508ca4;
-    background-image:url('../images_folder/Boodle_fight2.jpg');
-    opacity:0.8;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images_folder/Boodle_fight2.jpg');
     background-position: "center";
     background-repeat:no-repeat;
     background-size: cover;
@@ -74,29 +73,35 @@ li a.active{
 /*This is the main home content*/
 
 .mainhomecontent{
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     overflow:hidden;
-
+ 
+ 
+    
 }
 .subhomecontent{
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 14pt;
     letter-spacing: 1.6;
-    color: #508ca4;
+    color: #000;
     padding: 15px;
     margin: 15px;
-    border-style: dotted;
+   /* border-style: dotted; */
     height:80px;
     width: 50%;
 }
 
 .floatleft{
     float:left;
+    background-color: #fff;
 }
 
 .floatright{
     clear:both;
     float:right;
+    background-color: #fff;
 }
+
+
+
