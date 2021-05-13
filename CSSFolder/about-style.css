@@ -9,11 +9,11 @@ html, body {
 
 /*This is my header*/
 .header1 {
-    background-image: url("../images_folder/");
+    background-image: url("../images_folder/Boodle_fight2.jpg");
     background-color: #508ca4;
     background-size: cover;
     color:#fff;
-    height: 300px;
+    height:300px;
     width: 100%;
     flex-direction:column;
     text-align: center;
@@ -33,6 +33,7 @@ html, body {
     top:0;
     left: 0;
     color: white;
+    font-size: 20pt;
     display: flex;
     align-items:center;
     justify-content: center;
