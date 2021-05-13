@@ -50,6 +50,7 @@ html, body {
 
 .subcontents{
     display: flexbox;
+    overflow:hidden;
     float: left;
     background-color: #ECE8EF;
     width: 31%;
