@@ -80,13 +80,13 @@ html, body {
 
 /*iframe to place contents from links*/
 .iframecontent {
-    height: 600px;
-    width: 1300px;
-    margin-top: 30px;
+    height: 450px;
+    width: 1200px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    background-color: salmon;
+  /*  background-color: salmon; */
    
 }
 
@@ -95,7 +95,7 @@ html, body {
     margin-left: auto;
     margin-right: auto; 
     /*height: 600px;*/
-    width:1300px;
+    width:1200px;
 
 }
 
