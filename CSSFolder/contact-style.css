@@ -10,7 +10,7 @@ html, body {
 /*This is for the header */
 
 .header1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images_folder/boodle_fight2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images_folder/Boodle_fight2.jpg");
     background-color: #508ca4;
     background-size: cover;
     color:#fff;
