@@ -101,4 +101,6 @@ html, body {
 
 }
 
-
+.contentimage img{
+    background-image: url('../images_folder/breakfast1.JPG');
+}
